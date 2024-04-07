@@ -1,18 +1,37 @@
-import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import React from 'react';
+import { DocsThemeConfig } from 'nextra-theme-docs';
+import { Analytics } from '@vercel/analytics/react';
+import Footer from './components/Footer';
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
-  project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+  logo: <span style={{ fontWeight: 'bold' }}>Lecca.io</span>,
+  editLink: {
+    text: '',
   },
-  chat: {
-    link: 'https://discord.com',
+  sidebar: {
+    defaultMenuCollapseLevel: 1,
+    toggleButton: true,
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  feedback: {
+    content: '',
+  },
   footer: {
-    text: 'Nextra Docs Template',
+    text: <Footer />,
   },
-}
+  search: {
+    placeholder: 'Search Lecca.io...',
+  },
+  useNextSeoProps: () => {
+    return {
+      titleTemplate: '%s - Lecca.io',
+      defaultTitle: 'Lecca.io - Workflow Automation',
+    };
+  },
+  head: (
+    <>
+      <Analytics />
+    </>
+  ),
+};
 
-export default config
+export default config;

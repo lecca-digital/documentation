@@ -1,15 +1,17 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
+  "index": "Welcome",
+  "apps": "Apps",
+  "events": "Events",
+  "triggers": "Triggers",
+  "home": {
+    "title": "Home",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://www.lecca.io"
+  },
+  "demo": {
+    "title": "Demo ↗",
+    "type": "page",
+    "href": "https://demo.lecca.io",
     "newWindow": true
   }
 }
