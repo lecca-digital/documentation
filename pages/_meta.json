@@ -1,17 +1,20 @@
 {
   "index": "Welcome",
   "apps": "Apps",
-  "events": "Events",
+  "workflows": "Workflows",
+  "agents": "Agents",
+  "actions": "Actions",
   "triggers": "Triggers",
+  "variables": "Variables",
   "home": {
     "title": "Home",
     "type": "page",
     "href": "https://www.lecca.io"
   },
-  "demo": {
-    "title": "Demo ↗",
+  "app": {
+    "title": "Login ↗",
     "type": "page",
-    "href": "https://demo.lecca.io",
+    "href": "https://app.lecca.io",
     "newWindow": true
   }
 }

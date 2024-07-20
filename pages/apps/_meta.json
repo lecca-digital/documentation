@@ -1,0 +1,17 @@
+{
+    "close": "Close",
+    "gmail": "Gmail",
+    "google-sheets": "Google Sheets",
+    "google-docs": "Google Docs",
+    "google-calendar": "Google Calendar",
+    "google-drive": "Google Drive",
+    "google-forms": "Google Forms",
+    "google-contacts": "Google Contacts",
+    "google-slides": "Google Slides",
+    "microsoft-excel-365": "Microsoft Excel 365",
+    "microsoft-outlook": "Microsoft Outlook",
+    "notion": "Notion",
+    "openai": "OpenAI",
+    "slack": "Slack",
+    "youtube": "YouTube"
+}
