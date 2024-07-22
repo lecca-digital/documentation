@@ -1,1 +1,52 @@
+import { Cards, Card, Callout, Steps } from 'nextra/components';
+
 # Team
+
+**Manage your team members within your workspaces and projects**
+
+## Roles
+
+There are 2 types of roles, **Maintainers** and **Members**.
+
+### Maintainer
+
+1. Can invite and remove team members to/from the workspace. This is not the same as inviting to a project. All members of a project can invite users to a project.
+2. Can update the workspace subscription plan and update payment methods.
+3. Can view all projects, executions, connections, variables, .etc. 
+
+<Callout>
+  Maintainers can view and perform actions on anything within their workspace. Including projects they're not explicitly invited to.
+</Callout>
+
+### Member
+
+1. Cannot invite new members to the workspace.
+2. Can only access projects they've been invited to.
+3. Cannot view workspace overview or workspace billing information.
+
+## Inviting Team Members
+
+<Callout type="info">
+  On the **Starter** or **Professional** plans, you can only have one team member in your workspace. Upgrade to the **Team** or **Business** plans to invite additional members.
+</Callout>
+
+<Steps>
+### Step 1: Open Invitation Form
+
+To invite a team member to your workspace, select **Invite** on the overview page or in the Workspace Settings page.
+
+### Step 2. Enter Email
+
+Enter the email address of the person you want to invite. 
+
+### Step 3. Choose Role
+
+Choose their role from the dropdown menu. You can choose from **Maintainer** or **Member**.
+
+</Steps>
+
+Inviting team members will give them access to your workspace connections and variables.
+
+If they need access to project-specific workflows, AI Agents, connections, or variables, you'll need to invite them to those specific projects separately.
+
+For more detailed steps on inviting team members to projects, refer to our [Projects documentation](/projects).

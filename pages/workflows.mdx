@@ -1,1 +1,111 @@
+import { Callout, Steps } from 'nextra/components';
+
 # Workflows
+
+**Workflows in Lecca.io allow you to automate tasks by connecting various triggers and actions.**
+
+## Workflow Triggers
+
+<Callout type="info">
+    For in depth understanding of Triggers go to our [Trigger documentation](/triggers)
+</Callout>
+
+Workflows all start with a trigger. There are custom triggers like "Manually Run" and "Trigger by Agent," or you can use different triggers offered by our app integrations.
+
+- **Custom Triggers:** Like manually running or triggering by an agent.
+- **App Integration Triggers:** Utilize triggers from integrated apps.
+
+Triggers are either activated by:
+
+- **Webhook:** Instant triggering.
+- **Polling:** Default polling interval of 5 minutes, or 1 minute for Business plan users.
+
+## Workflow Actions
+
+<Callout type="info">
+    For in depth understanding of Actions go to our [Action documentation](/actions)
+</Callout>
+
+Once a workflow is triggered, all the actions in the workflow are executed sequentially.
+
+**Action Types:**
+
+- **Custom Actions:**: Run an AI Agent
+- **App Integration Actions:** Utilize actions from integrated apps.
+
+When adding an app integration trigger or action, you'll need to authorize the integration. If no connection exists, you can create one within the workflow or on the conenctions page. [Learn more about connections](/connections).
+
+## Execution and Debugging
+
+Every workflow run creates an execution, where the actual workflow that ran can be viewed, inspected, and debugged. [Learn more about executions](/executions).
+
+## Creating a Workflow
+
+Workflows are created within a project and can be disabled to pause the triggers.
+
+<Steps>
+### Select a project
+ 
+Create or select a project.
+ 
+### Start with a trigger
+ 
+Add a trigger to your workflow.
+ 
+### Then add actions
+ 
+Add app actions to your workflow.
+ 
+### Add connections 
+ 
+If you need to make connections, make the connections directly from your node configuration form.
+ 
+### Test & Debug
+ 
+Test and debug your workflow.
+
+### Save
+ 
+ Saving a node saves the entire workflow, but you can also save the workflow by clicking the save button on the top right.
+</Steps>
+
+## Mapping outputs to inputs
+
+When you add a trigger or action to a workflow, you can save it and test it to see if it works as expected. Once you do this you can map the output to an actions input.
+
+<Steps>
+### Select the node
+ 
+Open the node configuration by clicking on the action or trigger node.
+ 
+### Open the dropdown
+ 
+Click the **Save & Test** button to open a dropdown.
+ 
+### Select mock or real data.
+ 
+Select either **Use Mock Data** or **Use Real Data**.
+
+<Callout type="info">
+    1. **Use Mock Data:** Returns a sample response
+    2. **Use Real Data:** Creates a real call to the app integration endpoint and returns the real response.
+</Callout>
+<Callout type="info">
+    Once you have ran **Save & Test**, you can map the response to another action or trigger input.
+</Callout>
+ 
+### Test & Debug
+ 
+Test and debug your workflow.
+
+### Save
+ 
+ Saving a node saves the entire workflow, but you can also save the workflow by clicking the save button on the top right.
+</Steps>
+
+<Callout>
+    A node is an action or a trigger in a workflow. When you add a trigger or action to a workflow, you are adding a node.
+</Callout>
+
+
+For further assistance, please contact [support@lecca.io](mailto:support@lecca.io).
