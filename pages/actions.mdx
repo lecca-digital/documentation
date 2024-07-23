@@ -1,1 +1,51 @@
+import { Callout, Tabs, Steps } from 'nextra/components'
+
 # Actions
+
+**Actions are essential components within workflows and tools that AI Agents can utilize. They receive inputs to execute specific app actions.**
+
+## Inputs
+
+All actions require some form of input to function:
+- **Workflows**: Inputs are either manually entered or mapped from the output of a previous node.
+- **AI Agents**: Inputs are provided by the AI Agent. If additional information is needed, the agent will prompt for it.
+
+<Callout emoji="⚙️">
+  Note: Ensure your inputs are accurate to avoid errors in action execution.
+</Callout>
+
+## Example Usage
+
+<Tabs items={['Workflow', 'Agent']}>
+  <Tabs.Tab>
+    ### Workflow Example
+    
+    In a workflow, you might have an action that sends an email. The input could be mapped from data received in a previous step.
+
+<Steps>
+    ### Select app connection
+    ### Enter subject
+    ### Enter body
+    ### Enter recipient email
+    ### Enter other fields
+    </Steps>
+    
+  </Tabs.Tab>
+  
+  <Tabs.Tab>
+    ### Agent Example
+    
+    An AI Agent might need to send an email. It will use its internal logic and ask for any missing information if required.
+
+    <Steps>
+        ### You ask agent to send email
+        ### Agent asks for subject, recipient email, and body
+        ### Agent sends email
+    </Steps>
+
+    **Or you can tell the agent to send an email about a specific topic to an email address and it will generate it's own content (or look up the content using it's provided apps/tools) and subject line**
+    
+  </Tabs.Tab>
+</Tabs>
+
+If you encounter any issues or have questions, please contact us at [support@lecca.io](mailto:support@lecca.io).

@@ -1,1 +1,43 @@
+import { Steps, Callout } from 'nextra/components'
+
 # Connections
+
+**Workflows** and **Agent** in Lecca.io require connections to integrate with different applications. You can create multiple connections for the same app if you need to connect multiple accounts. 
+
+When creating a connection, you will need to provide a name and an optional description. There are two types of connections:
+
+<Callout emoji="🔑">
+  **API Key Connections**: These require an API key from the app you want to integrate. Follow the app's instructions to generate and use an API key.
+</Callout>
+
+<Callout emoji="🔓">
+  **OAuth2 Connections**: These will present an authentication screen where you connect your app to Lecca.io. You will need to select the permissions you wish to grant to Lecca.io. Note that not enabling all permissions could limit the available actions.
+</Callout>
+
+Connections can be established at the workspace level by default. If you need to create a connection at the project level instead, ensure that you select the project from the project dropdown during the connection creation process.
+
+If you need help, feel free to contact our support team at [support@lecca.io](mailto:support@lecca.io).
+
+## Creating a Connection
+
+<Steps>
+### Go to the Connections page
+
+Navigate to the **Connections** page to create a new connection.
+
+### Open the New Connection dialog
+
+Click on "New Connection."
+
+### Select the app
+
+Select the app to connect and fill in the required details.
+
+### Optionally select a project
+
+For project-level connections, select the desired project from the project dropdown.
+
+### Save
+
+Save your connection.
+</Steps>
