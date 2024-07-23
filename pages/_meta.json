@@ -1,11 +1,11 @@
 {
   "index": "Welcome",
-  "apps": "Apps",
   "workflows": "Workflows",
   "agents": "Agents",
   "actions": "Actions",
   "triggers": "Triggers",
   "variables": "Variables",
+  "apps": "Apps",
   "home": {
     "title": "Home",
     "type": "page",
