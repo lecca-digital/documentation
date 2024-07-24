@@ -1,4 +1,4 @@
-import { Callout, Steps} from 'nextra/components'
+import { Callout, Steps } from 'nextra/components';
 
 # Triggers
 
@@ -8,7 +8,9 @@ Triggers initiate workflows and can be either polling-based or webhook-based.
 
 ### Polling
 
-- **Non-Business Plan**: Checks for updates every 5 minutes.
+- **Start Plan**: Checks for updates every 15 minutes.
+- **Professional Plan**: Checks for updates every 5 minutes.
+- **Team Plan**: Checks for updates every 5 minutes.
 - **Business Plan**: Checks for updates every 1 minute.
 
 ### Webhooks
@@ -16,7 +18,8 @@ Triggers initiate workflows and can be either polling-based or webhook-based.
 Webhook triggers fire instantly once our servers receive the trigger from the app.
 
 <Callout emoji="⏰">
-  Note: Choose your plan wisely based on how frequently you need your triggers to check for updates.
+  Note: Choose your plan wisely based on how frequently you need your triggers
+  to check for updates.
 </Callout>
 
 ## Adding a Trigger to a Workflow
@@ -29,8 +32,9 @@ When adding a trigger to a workflow, follow these steps:
 Add your desired trigger to the workflow.
 
 ### Step 2
- 
+
 Run **Save & Test**. This allows you to map the output of the trigger to the input of subsequent actions.
+
 </Steps>
 
 ## Agent Triggers
