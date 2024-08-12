@@ -10,7 +10,7 @@ const config: DocsThemeConfig = {
   logo: (
     <div style={{ fontWeight: 'bold', display: 'flex', alignItems: 'center' }}>
       <Image
-        src="/images/logo.jpg"
+        src="/images/lecca-io.svg"
         width={30}
         height={30}
         alt="Lecca.io Logo"
@@ -24,8 +24,6 @@ const config: DocsThemeConfig = {
       <span style={{ fontSize: '20px' }}>Lecca.io</span>
     </div>
   ),
-  primaryHue: 250,
-  primarySaturation: 52,
   toc: {
     backToTop: true,
     float: true,

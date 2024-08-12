@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 170.82 255">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: url(#linear-gradient);
-      }
-
-      .cls-1, .cls-2 {
-        stroke-width: 0px;
-      }
-
-      .cls-2 {
-        fill: url(#linear-gradient-2);
-      }
-    </style>
-    <linearGradient id="linear-gradient" x1="207.46" y1="74.98" x2="116.83" y2="173.57" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#8383fb"/>
-      <stop offset=".15" stop-color="#7d76f9"/>
-      <stop offset=".42" stop-color="#6d56f6"/>
-      <stop offset=".79" stop-color="#5522f2"/>
-      <stop offset="1" stop-color="#4500ef"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="-24.18" y1="30.62" x2="117.74" y2="270.36" xlink:href="#linear-gradient"/>
-  </defs>
-  <g id="Layer_1-2" data-name="Layer 1">
-    <g>
-      <polygon class="cls-1" points="109.35 188.66 157.56 188.66 170.82 122.32 109.35 122.32 109.35 188.66"/>
-      <polygon class="cls-2" points="147.26 255 0 255 0 52.87 66.34 0 66.34 188.66 108.84 188.66 147.26 255"/>
-    </g>
-  </g>
+<svg id="a" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <polygon points="177.446 310.596 397.962 179.213 398.958 436.32 177.446 310.596" fill="#2c94d2"/>
+  <polygon points="397.963 179.495 177.447 310.878 176.451 53.771 397.963 179.495" fill="#00b9e0"/>
+  <polygon points="178.442 567.703 398.958 436.32 399.954 693.427 178.442 567.703" fill="#005c9e"/>
+  <polygon points="398.959 436.602 178.443 567.985 177.447 310.878 398.959 436.602" fill="#2374bb"/>
+  <polygon points="179.438 824.81 399.954 693.427 400.95 950.534 179.438 824.81" fill="#2374bb"/>
+  <polygon points="399.955 693.709 179.439 825.092 178.443 567.985 399.955 693.709" fill="#2c94d2"/>
+  <polygon points="657.776 949.539 526.392 729.023 783.499 728.027 657.776 949.539" fill="#2374bb"/>
+  <polygon points="526.674 729.022 658.057 949.538 400.95 950.534 526.674 729.022" fill="#005c9e"/>
+  <polygon points="783.217 728.028 651.834 507.512 908.941 506.516 783.217 728.028" fill="#2c94d2"/>
+  <polygon points="652.116 507.511 783.499 728.027 526.392 729.023 652.116 507.511" fill="#00b9e0"/>
 </svg>
