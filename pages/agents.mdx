@@ -1,42 +1,59 @@
-import { Callout, Steps } from 'nextra/components'
+# AI Agents
 
-# Agents
+AI Agents in Lecca.io are dynamic, capable of performing actions on your behalf, enhancing productivity while integrating smoothly with your applications. This guide will walk you through setting up and managing AI Agents effectively.
 
-**Agents perform tasks on your behalf using the connections to the apps you've configured them with.**
+## Creating and Configuring AI Agents
 
-<Callout type="info">
-We are currently working on Agent teams, a feature where Agents can interact with eachother.
-</Callout>
-
-## Configuring Your Agent
-
-Agents are created within a project. When you create an agent, you provide it with a name and a description.
-
-To configure your agent, follow these steps:
+import { Steps } from 'nextra/components';
 
 <Steps>
-### Instructions
-Provide instructions on how you want your agent to behave.
 
-### Connections
-Give your agent access to the connections (apps) you want it to have. Note: Only connect one connection of a single app for best results.
+### Step 1: Add Agent Instructions
+
+Begin by crafting clear, concise instructions for your AI Agent. These are critical as they define the tasks your agent will perform and how to perform them.
+
+### Step 2: Enable Web Access (Optional)
+
+You can opt to enable web access if your agent needs to pull information from external online sources.
+
+### Step 3: Grant Access to App Connections (Optional)
+
+Enhance your agent's capability by connecting it to your apps. This access allows the agent to interact with and perform actions within these applications.
+
+### Step 4: Grant Access to Actions (Optional)
+
+Based on the app connections established, specify which actions your AI Agent can perform. Note: The agent can prompt you for additional details needed to complete complex actions.
+
+### Step 5: Grant Access to Knowledge Notebooks (Optional)
+
+You can provide your agent with access to knowledge notebooks enhancing its response capability with informed context.
+
+### Step 6: Grant Access to Workflows (Optional)
+
+Connect workflows to the agent, allowing it to utilize them as tools or execute them directly. Remember, for an agent to run a workflow, the workflow must have a Manual Trigger, and to output data, an Output Workflow Data action is needed.
+
+### Step 7: Enable Sub Agents (Optional)
+
+Connect other agents to enable your AI to delegate tasks or message other agents.
 
 </Steps>
 
-When you give an agent access to a connection, it can perform actions using that app integration.
+## Integration Capabilities and Considerations
 
-## Triggering Agents
+### Workflow Execution
 
-Agents can be triggered in two ways:
-- Through chat
-- Through a workflow action (Run Agent)
+For scenarios where the tasks asked of your agents are complex, you can create a detailed workflow. These workflows can consist of multiple steps and optionally return an output. Then the workflow can be enabled for the Agent to use as a tool. This beats a simple action that can be enabled because it's more customized.
 
-We are working on adding features so that agents can call other agents and listen to app integration triggers.
+## Troubleshooting and Advanced Settings
 
-## Chatting with Your Agent
+While chatting with AI Agents, you can view the details of any actions performed by them. This includes action input values and outputs, providing insights for effective troubleshooting.
 
-When you chat with an agent, it will execute the command you gave it. For example, if you instruct your agent to send an email and have given it access to your Gmail connection, it will send an email from your Gmail account.
+import { Callout } from 'nextra/components';
 
-<Callout>
-For support or any questions, please contact us at [support@lecca.io](mailto:support@lecca.io).
+<Callout emoji="⚙️" type="info">
+  Remember, AI Agents utilize Credits. However, in the advanced settings, you
+  have the option to configure your agent to leverage your own OpenAI
+  connection.
 </Callout>
+
+For more detailed information contact us at support@lecca.io.

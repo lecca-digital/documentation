@@ -1,25 +1,60 @@
-import { Callout } from 'nextra/components';
+import { Callout, Steps, Tabs } from 'nextra/components';
 
 # Executions
 
-Executions are created when a workflow is triggered. Each execution provides a history of the workflow that ran.
+When you're working with workflows in Lecca.io, understanding and managing Executions are essential to ensure efficiency and troubleshoot any issues that arise. Here’s everything you need to know about Executions.
 
-## Execution History
+## Overview
 
-The execution history is useful for:
+Executions occur each time a workflow runs in Lecca.io. You can monitor these Executions on the Executions page.
 
-- Debugging steps
-- Viewing the output of different steps
+<Tabs items={['Overview', 'Managing Executions']}>
+  <Tabs.Tab>
+    ## Overview
 
-If an execution fails, it will indicate why it failed and you can examine the specific step where the failure occurred.
+    Each Execution represents a specific instance of a workflow execution. When a workflow is triggered, an Execution is created and logged on the Executions page.
+
+  </Tabs.Tab>
+
+  <Tabs.Tab>
+    ## Managing Executions
+
+    On the Executions page, you will have access to important information, such as:
+
+    - **Start and End Times:** Monitor the duration of each workflow execution.
+    - **Status:** Track the current state of the execution, whether it’s running, completed, or encountered an error.
+    - **Referenced Workflow:** Quickly identify which workflow is being executed.
+
+    Executions are initiated when a trigger step within the workflow is activated. For more details on setting up triggers, visit the [Triggers documentation](/triggers).
+
+  </Tabs.Tab>
+</Tabs>
+
+<Steps>
+### Viewing Execution Details
+
+To get a detailed view of each execution:
+
+1. Navigate to the **Executions Page** from the main dashboard.
+2. Observe the list of executions with their respective start and end times, status, and referenced workflows.
+3. If an execution is still running, it will be marked accordingly, allowing you to track its progress in real-time.
+4. Should there be any errors within an execution, error outputs will be displayed for effective debugging.
+
+### Debugging and Error Handling
+
+Upon encountering errors in a workflow execution:
+
+- Locate the specific execution on the Executions page.
+- Inspect the error outputs to diagnose and resolve issues quickly.
+
+This process is crucial for maintaining seamless workflow operations and ensuring each step executes as intended.
+
+</Steps>
 
 <Callout emoji="🔍">
-The history of executions varies depending on your plan.
-
-- **Starter Plan:** 1 Week
-- **Professional Plan:** 1 Month
-- **Team Plan:** 1 Month
-
+  Remember, you need a workflow with a trigger to generate Executions. Configure
+  your workflows accordingly and leverage the Executions page for optimal
+  monitoring.
 </Callout>
 
-For more details or support, please contact us at [support@lecca.io](mailto:support@lecca.io).
+For any questions or further assistance with Executions, feel free to reach out to our support team at [support@lecca.io](mailto:support@lecca.io).

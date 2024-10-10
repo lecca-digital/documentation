@@ -1,43 +1,63 @@
-import { Steps, Callout } from 'nextra/components'
+import { Steps, Callout } from 'nextra/components';
 
 # Connections
 
-**Workflows** and **Agent** in Lecca.io require connections to integrate with different applications. You can create multiple connections for the same app if you need to connect multiple accounts. 
+Lecca.io's Connections feature allows you to integrate with your favorite third-party applications.
 
-When creating a connection, you will need to provide a name and an optional description. There are two types of connections:
-
-<Callout emoji="🔑">
-  **API Key Connections**: These require an API key from the app you want to integrate. Follow the app's instructions to generate and use an API key.
+<Callout type="info" emoji="🌟">
+  If you don't see an integration you need, please reach out to our team. We are
+  constantly adding highly requested apps. If the software has an API, we can
+  usually integrate it quickly.
 </Callout>
 
-<Callout emoji="🔓">
-  **OAuth2 Connections**: These will present an authentication screen where you connect your app to Lecca.io. You will need to select the permissions you wish to grant to Lecca.io. Note that not enabling all permissions could limit the available actions.
-</Callout>
+## Key Features
 
-Connections can be established at the workspace level by default. If you need to create a connection at the project level instead, ensure that you select the project from the project dropdown during the connection creation process.
-
-If you need help, feel free to contact our support team at [support@lecca.io](mailto:support@lecca.io).
+- **Variety of Integration Types**: Supports API, OAuth2, Basic (username/password), and Key Pair (private/public key) integrations.
+- **Easy Setup**: Enter a connection name, an optional description, and proceed with specific integration instructions.
+- **Security**: Connection data is encrypted on our backend, ensuring secure transmission and decryption takes place server-side during requests.
+- **Flexibility**: Establish connections at a workspace level or project level to suit your needs.
 
 ## Creating a Connection
 
 <Steps>
-### Go to the Connections page
 
-Navigate to the **Connections** page to create a new connection.
+### Step 1: Initiate Connection
 
-### Open the New Connection dialog
+- Navigate to the Connections section in your Lecca.io dashboard.
+- Click on "New Connection" to start the setup process.
 
-Click on "New Connection."
+### Step 2: Enter Connection Details
 
-### Select the app
+- **Name**: Give your connection a memorable name.
+- **Description**: Optionally, add a description to help identify the connection's purpose.
 
-Select the app to connect and fill in the required details.
+### Step 3: Select Integration Type
 
-### Optionally select a project
+- Choose the type of integration from the options:
+  - **API Integration**: Fill out the API endpoint details and authentication headers.
+  - **OAuth2 Integration**: A link will be provided for authentication with the third-party app.
+  - **Basic Authentication**: Enter your username and password credentials.
+  - **Key Pair Integration**: Provide the necessary private and public keys.
 
-For project-level connections, select the desired project from the project dropdown.
+### Step 4: Finalize and Save
 
-### Save
+- Once all required fields are filled, save your connection.
+- Your connection is now ready to enhance your workflow or AI project.
 
-Save your connection.
 </Steps>
+
+## Security Measures
+
+<Callout type="info" emoji="🔒">
+  All connection data is securely encrypted. It is stored encrypted on the
+  backend and only decrypted on the server when making requests, ensuring your
+  data's confidentiality.
+</Callout>
+
+## Management
+
+Connections can be managed at either the workspace level or the project level, offering flexibility in how you integrate and interact with third-party applications.
+
+For further assistance or any inquiries, feel free to reach out to our support team at [support@lecca.io](mailto:support@lecca.io).
+
+Explore more on our [documentation page](https://docs.lecca.io/).
