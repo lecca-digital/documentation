@@ -6,13 +6,45 @@ Triggers initiate workflows and can be either polling-based or webhook-based.
 
 ## Types of Triggers
 
-### Polling
+### 1. Manually Run
+
+Use a Manually Run trigger to allow humans, agents, and other workflows to trigger your workflows.
+
+<iframe
+  width="560"
+  height="315"
+  style={{ marginTop: '20px' }}
+  src="https://www.youtube.com/embed/k6tjvCbD8ZA?si=i54wU01p2B5S6CER"
+  title="YouTube video player"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerPolicy="strict-origin-when-cross-origin"
+  allowFullScreen
+></iframe>
+
+### 2. Apps
+
+Apps have two types of triggers - Polling and Webhooks
+
+<iframe
+  width="560"
+  height="315"
+  style={{ marginTop: '20px' }}
+  src="https://www.youtube.com/embed/L74SujQRUhI?si=a9UJWaijHlu9bLgn"
+  title="YouTube video player"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerPolicy="strict-origin-when-cross-origin"
+  allowFullScreen
+></iframe>
+
+#### App Polling
 
 - **Start Plan**: Checks for updates every 15 minutes.
 - **Professional Plan**: Checks for updates every 5 minutes.
 - **Team Plan**: Checks for updates every minute.
 
-### App Webhooks
+#### App Webhooks
 
 Webhook triggers fire instantly once our servers receive the trigger from the app.
 
@@ -21,29 +53,34 @@ Webhook triggers fire instantly once our servers receive the trigger from the ap
   to check for updates.
 </Callout>
 
-### Scheduled
+### 3. Recurring Schedule
 
 The Recurring Schedule trigger allows you to configure a schedule to trigger your workflows on.
 
-### Custom Webhook
+<iframe
+  width="560"
+  height="315"
+  style={{ marginTop: '20px' }}
+  src="https://www.youtube.com/embed/toptFpTdCgc?si=UOwv_rnYaSN1MrsS"
+  title="YouTube video player"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerPolicy="strict-origin-when-cross-origin"
+  allowFullScreen
+></iframe>
 
-Create a custom webhook link that will execute your workflow.
+### 4. Listen for Webhook - Custom Webhook
 
-## Adding a Trigger to a Workflow
+Send an HTTP Request to your workflow's webhook link to run the workflow.
 
-When adding a trigger to a workflow, follow these steps:
-
-<Steps>
-### Step 1
- 
-Add your desired trigger to the workflow.
-
-### Step 2
-
-Run **Save & Test**. This allows you to map the output of the trigger to the input of subsequent actions.
-
-</Steps>
-
-## Agent Triggers
-
-Agent triggers behave similarly to workflow triggers. The output of an agent's trigger is sent as a prompt to the agent. Based on its instructions and available apps/tools, it will determine what action to take next.
+<iframe
+  width="560"
+  height="315"
+  style={{ marginTop: '20px' }}
+  src="https://www.youtube.com/embed/L8jHS5bR-28?si=kaCEllS90Gx8NHcC"
+  title="YouTube video player"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerPolicy="strict-origin-when-cross-origin"
+  allowFullScreen
+></iframe>
