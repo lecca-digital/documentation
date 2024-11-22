@@ -2,9 +2,11 @@
   "index": "Welcome",
   "workflows": "Workflows",
   "agents": "Agents",
+  "ai-providers": "AI Providers",
   "actions": "Actions",
   "triggers": "Triggers",
   "variables": "Variables",
+  "credits": "Credit Usage",
   "apps": "Apps",
   "home": {
     "title": "Home",

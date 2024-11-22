@@ -1,11 +1,13 @@
 {
   "ai": "AI",
+  "anthropic": "Anthropic",
   "apify": "Apify",
   "calendly": "Calendly",
   "csv": "CSV Helper",
   "date": "Date Helper",
   "dropbox": "Dropbox",
   "flow-control": "Flow Control",
+  "gemini": "Gemini",
   "gmail": "Gmail",
   "google-calendar": "Google Calendar",
   "google-contacts": "Google Contacts",
